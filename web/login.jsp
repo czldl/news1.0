@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>'login.jsp'</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="image/styles.css">
     <script type="text/javascript">
         function fun(form){
             if(form.username.value == ""){
@@ -39,7 +39,7 @@
         out.println(info);
     }
 %>
-<br><h9>对不起你还没登入</h9>
+<br><h9>sorry, you are not login</h9>
 <form action="LoginServlet" method="post" onsubmit="return fun(this)">
     username:<input type="text" name="username" size="25" >
     <br>

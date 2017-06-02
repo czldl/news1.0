@@ -14,12 +14,11 @@ import database.userSql;
 
 public class IndividualServlet extends HttpServlet {
     private static final long serialVersionUID = -3009431503363456888L;
+
+
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-
-            String email=request.getParameter("email");
-            System.out.print(email);
 
 
 

@@ -33,7 +33,8 @@ Normal account can post news,change username and password,delete their account. 
 "exitServlet.java"
 "loginServlet.java"
 "registerServlet.java"
-
+"IndividualServlet" function 1.add or modify news 2.delete account or news 3.go to public place to see other's news and
+                             comment 4.sign out account
 </div>
 
 <div package="User">

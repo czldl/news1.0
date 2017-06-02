@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet{
 
         }else{
             //登入失败转到信息提示页面，再等待做下步计划
-            request.setAttribute("info", "错误：用户名和密码错误");
+            request.setAttribute("info", "Error:wrong with username and password");
             request.getRequestDispatcher("login.jsp").forward(request, response);
 
         }

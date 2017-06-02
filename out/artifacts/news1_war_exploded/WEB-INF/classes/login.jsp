@@ -6,23 +6,22 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="GBK"%>
-<%@ page import='user.User' %>
 <html>
 <head>
     <title>'login.jsp'</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="image/styles.css">
     <script type="text/javascript">
         function fun(form){
             if(form.username.value == ""){
-                alert("名字不能为空");
+                alert("name cannot be empty");
                 return false;
             }
             if(form.password.value == ""){
-                alert("密码不能为空");
+                alert("password cannot be empty");
                 return false;
             }
             if(form.email.value == ""){
-                alert("email不能为空");
+                alert("email cannot be empty");
                 return false;
             }
 
@@ -40,7 +39,7 @@
         out.println(info);
     }
 %>
-<br><h9>对不起你还没登入</h9>
+<br><h9>sorry, you are not login</h9>
 <form action="LoginServlet" method="post" onsubmit="return fun(this)">
     username:<input type="text" name="username" size="25" >
     <br>

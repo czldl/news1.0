@@ -41,7 +41,7 @@ public class RegisterServlet extends HttpServlet{
 
             }
             else{
-                request.setAttribute("info", "错误：此用户名已存在！");
+                request.setAttribute("info", "Error:this user exists");
                 //转到register.jsp界面
                 request.getRequestDispatcher("register.jsp").forward(request, response);
             }

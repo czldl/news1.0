@@ -12,15 +12,15 @@
     <script type="text/javascript">
         function fun(form){
             if(form.username.value == ""){
-                alert("名字不能为空");
+                alert("name cannot be empty");
                 return false;
             }
             if(form.password.value == ""){
-                alert("密码不能为空");
+                alert("password cannot be empty");
                 return false;
             }
             if(form.email.value == ""){
-                alert("email不能为空");
+                alert("email cannot be empty");
                 return false;
             }
 
