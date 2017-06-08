@@ -19,6 +19,21 @@ public class IndividualServlet extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
+        String post=request.getParameter("post");
+        User user=(User)request.getSession().getAttribute("user");
+
+        //insert post into database
+        userSql userSql=new userSql();
+        userSql.insertBlog(post,user.getId());
+
+        //System.out.println(post+user.getId());
+
+        //forward to public page
+        //将post放到session中
+        request.getSession().setAttribute("post", post);
+        //转发到individual.jsp个人主页
+        request.getRequestDispatcher("public.jsp").forward(request, response);
+
 
 
 

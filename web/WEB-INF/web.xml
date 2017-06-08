@@ -20,6 +20,20 @@
         <servlet-class>servlet.RegisterServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>Public-Servlet</servlet-name>
+        <servlet-class>servlet.PublicServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Exit-Servlet</servlet-name>
+        <servlet-class>servlet.ExitServlet</servlet-class>
+    </servlet>
+
+
+
+
+
 
     <!-- Servlet映射 -->
     <servlet-mapping>
@@ -35,6 +49,16 @@
     <servlet-mapping>
         <servlet-name>Register-Servlet</servlet-name>
         <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Exit-Servlet</servlet-name>
+        <url-pattern>/ExitServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Public-Servlet</servlet-name>
+        <url-pattern>/PublicServlet</url-pattern>
     </servlet-mapping>
 
     <!-- 主页 -->

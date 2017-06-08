@@ -26,3 +26,4 @@ create TABLE comments(
   REFERENCES blog(person_id,blog_id)  ON DELETE CASCADE ON UPDATE CASCADE
 
 )ENGINE=InnoDB;
+

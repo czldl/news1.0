@@ -8,24 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
-    <script type="text/javascript">
-        function fun(form){
-            if(form.username.value == ""){
-                alert("name cannot be empty");
-                return false;
-            }
-            if(form.password.value == ""){
-                alert("password cannot be empty");
-                return false;
-            }
-            if(form.email.value == ""){
-                alert("email cannot be empty");
-                return false;
-            }
-
-        }
-    </script>
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="image/styles.css">
+    <script type="text/javascript" src="js/function.js"></script>
 </head>
 <h3>Register, let's do it!!</h3>
 <%

@@ -27,15 +27,22 @@ public class RegisterServlet extends HttpServlet{
         userSql usersql;
         usersql = new userSql();
 
-            if(usersql.emailIsExist(email))
+            if(usersql.emailNotExist(email))
             {
                 //实例一个user对象
-                User User =new User(username,password,sex,email);
+                User user =new User(username,password,sex,email);
 
                 //保存用户注册信息
-                usersql.insertUser(User);
+                usersql.insertUser(user);
+
+                //get full user information and direct to session
+                User user1;
+                userSql usersql1=new userSql();
+
+                user1=usersql1.login(user.getUsername(),user.getPassword());
+
                 //将用户放到session中
-                request.getSession().setAttribute("user", User);
+                request.getSession().setAttribute("user", user1);
                 //转发到individual.jsp个人主页
                 request.getRequestDispatcher("individual.jsp").forward(request, response);
 

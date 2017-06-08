@@ -8,30 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="GBK"%>
 <html>
 <head>
-    <title>'login.jsp'</title>
+    <title>login</title>
     <link rel="stylesheet" type="text/css" href="image/styles.css">
-    <script type="text/javascript">
-        function fun(form){
-            if(form.username.value == ""){
-                alert("name cannot be empty");
-                return false;
-            }
-            if(form.password.value == ""){
-                alert("password cannot be empty");
-                return false;
-            }
-            if(form.email.value == ""){
-                alert("email cannot be empty");
-                return false;
-            }
-
-        }
-    </script>
+    <script type="text/javascript" src="js/function.js"></script>
 </head>
 <body>
 
 <h3>Thanks for using this applet, you need an account to transport your idea!!</h3>
 <%
+
     //获取提示信息
     String info = (String)request.getAttribute("info");
     //如果提示信息不为空则，则输出提示信息
