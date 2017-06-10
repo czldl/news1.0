@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee61fbe3-ecfe-4eec-8112-9d46d6139d50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/servlet/ExitServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/servlet/PublicServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/function.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/user/Admin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/user/Admin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/user/Admin.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/database/userSql.class" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/database/userSql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/servlet/IndividualServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/servlet/IndividualServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/servlet/RegisterServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/servlet/RegisterServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/database/userSql.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/database/userSql.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndividualServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/IndividualServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/RegisterServlet.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/RegisterServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/news1.iml" afterPath="$PROJECT_DIR$/login and news publishing applet.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/MySql.sql" afterPath="$PROJECT_DIR$/database/MySql.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/image/styles.css" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/image/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/individual.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/individual.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/public.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/public.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/classes/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/image/styles.css" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/image/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/individual.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/individual.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/public.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/public.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/news1_war_exploded/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/database/userSql.java" afterPath="$PROJECT_DIR$/src/java/database/userSql.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/servlet/IndividualServlet.java" afterPath="$PROJECT_DIR$/src/java/servlet/IndividualServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/java/servlet/RegisterServlet.java" afterPath="$PROJECT_DIR$/src/java/servlet/RegisterServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/image/styles.css" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/image/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/individual.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/individual.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/public.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/public.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/register.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/image/styles.css" afterPath="$PROJECT_DIR$/web/image/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/individual.jsp" afterPath="$PROJECT_DIR$/web/individual.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public.jsp" afterPath="$PROJECT_DIR$/web/public.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,24 +42,24 @@
             <state relative-caret-position="90">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#592#593#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="false" />
+                <element signature="e#560#561#0" expanded="false" />
+                <element signature="e#592#593#0" expanded="false" />
+                <element signature="e#620#621#0" expanded="false" />
+                <element signature="e#654#655#0" expanded="false" />
+                <element signature="e#685#686#0" expanded="false" />
+                <element signature="e#732#733#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#806#807#0" expanded="false" />
+                <element signature="e#837#838#0" expanded="false" />
+                <element signature="e#884#885#0" expanded="false" />
+                <element signature="e#924#925#0" expanded="false" />
+                <element signature="e#953#954#0" expanded="false" />
+                <element signature="e#979#980#0" expanded="false" />
+                <element signature="e#1063#1064#0" expanded="false" />
+                <element signature="e#1091#1092#0" expanded="false" />
+                <element signature="e#1132#1133#0" expanded="false" />
+                <element signature="e#1166#1167#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,8 +68,18 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="5" column="100" lean-forward="false" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
+            <state relative-caret-position="0">
+              <caret line="0" column="88" lean-forward="false" selection-start-line="0" selection-start-column="88" selection-end-line="0" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySql.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/MySql.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -227,9 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -460,6 +425,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1019,11 +987,13 @@
       <workItem from="1496819575984" duration="613000" />
       <workItem from="1496823518315" duration="85000" />
       <workItem from="1496905271461" duration="115000" />
+      <workItem from="1496912639945" duration="21000" />
+      <workItem from="1497091337806" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97872000" />
+    <option name="totallyTimeSpent" value="98170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,10 +1026,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30467573" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3137255" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1243,13 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/MySql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/database/userSql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1363,32 +1326,40 @@
         <state relative-caret-position="90">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#592#593#0" expanded="false" />
+            <element signature="e#620#621#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#806#807#0" expanded="false" />
+            <element signature="e#837#838#0" expanded="false" />
+            <element signature="e#884#885#0" expanded="false" />
+            <element signature="e#924#925#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
+            <element signature="e#979#980#0" expanded="false" />
+            <element signature="e#1063#1064#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1132#1133#0" expanded="false" />
+            <element signature="e#1166#1167#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/MySql.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="5" column="100" lean-forward="false" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
+        <state relative-caret-position="0">
+          <caret line="0" column="88" lean-forward="false" selection-start-line="0" selection-start-column="88" selection-end-line="0" selection-end-column="88" />
           <folding />
         </state>
       </provider>
